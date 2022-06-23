@@ -33,7 +33,7 @@ else
     [Inject]
     public IBugService BugService { get; set; }
 
-    public List<Bug> Bugs = new List<Bug>();
+    public List<Bug> Bugs { get; set; }
 
     protected override void OnInitialized()
     {
